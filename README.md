@@ -1,2 +1,2 @@
-# vuduland.github.io
-my first page on github
+# MyFirstPage
+Day 2 Bootcamp (8.21.2019)
