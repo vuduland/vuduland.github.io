@@ -1,51 +1,70 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  ​
+<html class="html" lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <title>My First Bootcamp Page</title>
-    <!-- tab title -->
+   <head>
+      <title>About Me</title>
+      <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+      <meta name="full-stack; web developer; portfolio" content="bio; portfolio; contact information">
+   </head>
 
-    <link rel="stylesheet" type="text/css" href="./CSS/style.css" />
-    <!-- links css to html. style.css is the folder in the same directory, it would be css/style.css if it was in a css folder inside the directory -->
-  </head>
-  ​
+   <body>
+      <div class="wrapper">
 
-  <body>
-    <header>
-      <h1>Student Bio</h1>
-    </header>
+         <header class="header">
 
-    <div class="container">
-      <!-- Divider to organize webpage. "container" is just what you call it for your                                   reference. To reference it in style.css you use '.container' -->
-      <!-- divs and sections are the same. They help manage code; you can use them differently later though -->
+            <div class="container">
 
-      <!-- Bio Section -->
-      <section id="main-bio">
-        <h2>Victor Uland</h2>
+               <a href="index.html" class="logo">Victor Uland</a>
 
-        ​
-        <!--<a href="https://www.google.com" target="_blank">click me</a> this is an 'a'-link that goes to google                  https:// is required. target="_blank" -->
+               <nav>
+                  <a href="index.html">About Me</a>
+                  <a href="./portfolio.html">Portfolio</a>
+                  <a href="./contact.html">Contact</a>
+               </nav>
 
-        <img id="bio-image" src="./CSS/headshot.jpg" alt="Victor Uland" />
+            </div>
 
-        <p>About me paragraphs</p>
-      </section>
-      <!-- Bio Ending -->
+         </header>
 
-      <!-- Contact Info Beginning -->
-      <section id="contact-info">
-        <h2>Contact Info</h2>
+         <div class="container">
 
-        <ul>
-          <li><strong>Email:</strong> victoruland@gmail.com</li>
-          <li><b>Phone:</b> (317) 519-9441</li>
-          <li><strong>Portfolio:</strong> Coming Soon</li>
-        </ul>
-      </section>
-      <!-- Contact Info End -->
-    </div>
-  </body>
-  ​
+            <section class="aboutMe">
+
+               <h1>About Me</h1>
+
+               <img class="headshot" src="./assets/images/headshot.jpg" alt="Victor Uland">
+
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+               <p>Rem laudantium beatae a expedita provident magni? Repudiandae ad voluptates esse est, excepturi amet
+                  omnis unde modi.
+                  Fugiat, ad deserunt. Magni, quidem.</p>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ad voluptates esse est, excepturi
+                  amet omnis unde modi.
+                  Fugiat, ad deserunt. Magni, quidem.</p>
+
+            </section>
+
+            <div class="connect">
+
+               <h2>Connect with Me</h2>
+
+               <img src="./assets/images/Icons/github.png" alt="Github">
+               <img src="./assets/images/Icons/linkedIN.png" alt="LinkedIn">
+               <img src="./assets/images/Icons/stackOverflow.png" alt="Stack Overflow">
+
+            </div>
+
+         </div>
+
+      </div>
+
+      <div>
+         <footer class="footer">
+            &copy; Copyright 2019 Victor A. Uland
+         </footer>
+      </div>
+   </body>
+
 </html>

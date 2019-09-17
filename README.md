@@ -1,2 +1,3 @@
-# MyFirstPage
-Day 2 Bootcamp (8.21.2019)
+# Basic-Portfolio
+
+soon to be adequate portfolio and soon after a good portfolio
