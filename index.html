@@ -1,70 +1,169 @@
 <!DOCTYPE html>
-<html class="html" lang="en">
+<html>
 
-   <head>
-      <title>About Me</title>
-      <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-      <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-      <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-      <meta name="full-stack; web developer; portfolio" content="bio; portfolio; contact information">
-   </head>
+<head>
+  <!-- <link rel="stylesheet" href="reset.css"> -->
+  <title>Victor A. Uland</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Megrim|Permanent+Marker|Rock+Salt&display=swap"
+    rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" type="image/png" href="img/ripple_window_and_fractal_32x32.jpg"/>
+  <link href="style.css" rel="stylesheet">
+</head>
 
-   <body>
-      <div class="wrapper">
-
-         <header class="header">
-
-            <div class="container">
-
-               <a href="index.html" class="logo">Victor Uland</a>
-
-               <nav>
-                  <a href="index.html">About Me</a>
-                  <a href="./portfolio.html">Portfolio</a>
-                  <a href="./contact.html">Contact</a>
-               </nav>
-
-            </div>
-
-         </header>
-
-         <div class="container">
-
-            <section class="aboutMe">
-
-               <h1>About Me</h1>
-
-               <img class="headshot" src="./assets/images/headshot.jpg" alt="Victor Uland">
-
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-               <p>Rem laudantium beatae a expedita provident magni? Repudiandae ad voluptates esse est, excepturi amet
-                  omnis unde modi.
-                  Fugiat, ad deserunt. Magni, quidem.</p>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ad voluptates esse est, excepturi
-                  amet omnis unde modi.
-                  Fugiat, ad deserunt. Magni, quidem.</p>
-
-            </section>
-
-            <div class="connect">
-
-               <h2>Connect with Me</h2>
-
-               <img src="./assets/images/Icons/github.png" alt="Github">
-               <img src="./assets/images/Icons/linkedIN.png" alt="LinkedIn">
-               <img src="./assets/images/Icons/stackOverflow.png" alt="Stack Overflow">
-
-            </div>
-
-         </div>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only">Toggle Navigation</span>
+          <span class="icon-r"></span>
+          <span class="icon-r"></span>
+          <span class="icon-r"></span>
+        </button>
+        <a href="#" class="navbar-brand">
+          <h2 id="fuzzy">~ VUDU Labs Design ~ </h2>
+        </a>
 
       </div>
-
-      <div>
-         <footer class="footer">
-            &copy; Copyright 2019 Victor A. Uland
-         </footer>
+      <div class="collapse navbar-collapse" id="navbar-collapse-main">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-   </body>
+    </div>
+  </nav>
+
+  <div id="home">
+    <div class="landing-text">
+      <h1> Victor Arden Uland </h1>
+      <h3>make cool things</h3>
+      <a href="https://jsfiddle.net" class="btn btn-default btn-lg" target="_blank">Get Started</a>
+    </div>
+  </div>
+
+  <div class="padding">
+    <div id="about" class="container"> 
+      <div class="row">
+        <div class="col-sm-6">
+          <img src="img/VictorUland-3.jpg" alt="image1">
+        </div>
+        <div class="col-sm-6 text-center">
+          <h2 id="aboutMe">About Me</h2>
+          <p class="lead"> <em>TL:DR - I've yet to find a subject I don't enjoy. Stay curious!</em></p>
+          <br>
+          <p class="lead"><span> I believe following my curiosity provides the tools to achieve my goals. I dream
+              of helping people build software that functions so well, it goes unnoticed. I dream of being part of teams
+              imbued with a passion for coding and a passion for solving difficult problems; a passion for
+              continuous learning. I dream of allowing others to do the same by contributing to and building intuitive
+              and effective learning tools, whether it be by creating APIs that access free resources, or optimizing
+              tools already in existence, I want to be part of that field. I dream of what this driving curiosity may
+              bring; What story has it already spun in my life, and what is the next chapter?</span></p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="fixed">
+
+  </div>
+  <div class="padding">
+    <div id="projects" class="projects">
+      <div class="container-fluid">
+        <div class="row">
+          <h2 class="col-sm-12">Projects</h2>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+
+            <h4><span>code.Division</span></h4>
+            <p><span>A site with curated content and resources related to web development and programming. Will be updated with more functionality and bug fixes soon.</span></p>
+            <div class="col-sm-12">
+              <a href="http://vuduland.github.io/01-Project/" target="_blank"><img id='right' src="img/code-Division.png"
+                  alt="Portfolio Website Picture"></a>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <h4><span>CRYSTAL.method Game</span></h4>
+              <p><span>A game where the user clicks on a crystal, each one assigned a random number of hidden point values. The crystals value is added to the total in hopes to reach the target value. Like black jack, if you go over it's bust, and you start again.</span></p>
+              <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <a href="http://vuduland.github.io/04-Crystal_Guess/" target="_blank"><img id='right' src="img/crystalMethod.png"
+                    alt="Portfolio Website Picture">
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h4><span>Palindrome Game</span></h4>
+          <p><span>A short hangman game. Themed around Palindromes, the user guesses letters until they win or lose. Number of wins and losses are tracked, as well as guessed letters. </span></p>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <a href="https://vuduland.github.io/03-Word_Guess/" target="_blank"><img id='right' src="img/burlywood-palindrome.png"
+                alt="Portfolio Website Picture">
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <h4><span>Train Schedule Calculator</span></h4>
+            <p><span>A simple UI that allows a user to input a train name, destination, first train time, and the frequency of that particular train. Given this input, it then calculates and appends to the table at the top the next arrival time and minutes until then. <br>
+              At this point the destination and train name are arbitrary, but will be updated later to perhaps interface with actual train schedules.
+            </span></p>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <a href="https://vuduland.github.io/07-Train_Scheduler/" target="_blank"target="_blank"><img id='right' src="img/trainScheduler.png"
+                  alt="Portfolio Website Picture">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid text-center">
+    <div id="contact" class="row">
+      <div id="contactUs" class="col-sm-4">
+        <h3>Contact Us</h3>
+        <h4 id="name">Victor Arden Uland <br>
+          <a href="mailto:vuedulabs@gmail.com" style="color: white;">vuedulabs@gmail.com</a><br>
+          123 Fake St, <br>KCMO<br>
+        </h4>
+      </div>
+      <div class="col-sm-4">
+        <h3>Connect</h3>
+        <a href="https://twitter.com/victor_uland" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://www.linkedin.com/in/victor-uland-51b02418b/" class="fa fa-linkedin" target="_blank"></a>
+        <a href="https://github.com/vuduland" class="fa fa-github" target="_blank"></a>
+      </div>
+      <div class="col-sm-4">
+        <h3> Victor Arden Uland  <br>~ vuedulabs@gmail.com ~ &copy; 2019 </h3>
+        <img src="img/ceiling.jpg" alt="b-image" class="icon">
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+</body>
 
 </html>
