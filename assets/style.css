@@ -16,15 +16,15 @@ body {
   min-height: 55px;
   padding: 0 15px 5px;
 }
-
+/* font-family: "IBM Plex Mono", monospace; */
 .navbar-default .navbar-nav li a {
   color: #d5d5d5;
-  font-family: 'Rock Salt', cursive;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .navbar-default .navbar-nav li a {
   color: #d5d5d5;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .navbar-default .navbar-nav li a:hover,
@@ -38,7 +38,7 @@ body {
 
 #fuzzy {
   margin: 10px;
-  font-family: 'Bungee Shade', cursive;
+  font-family: "IBM Plex Mono", monospace;
   font-optical-sizing: auto;
   color: rgb(255, 255, 255);
 }
@@ -56,7 +56,7 @@ body {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  font-family: 'Rock Salt', cursive;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 1rem;
   color: rgb(255, 255, 255);
 }
@@ -67,7 +67,7 @@ body {
 }
 
 p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 p #lead {
@@ -120,7 +120,7 @@ p #lead {
 .projects h2,
 #about h2 {
   text-align: center;
-  font-family: 'Rock Salt', cursive;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 2em;
   color: rgb(10, 10, 10);
   margin-bottom: 3em;
@@ -137,7 +137,7 @@ footer {
 
 footer h3 {
   color: #fff;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 footer #name {
