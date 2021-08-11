@@ -1,0 +1,10 @@
+-Change Font
+-Change VUDU LABS DESIGN to VAU or Victor Arden Uland or vuduland
+-make Home About Projects Contact larger font and/or hamburger button
+-fix alignment and grid for projects
+-add semantic HTML5 and make accessibility
+-check lighthouse score
+-Change about me.
+-change email at bottom to victoruland@gmail.com
+-make footer smaller, remove picture
+-does GTAG even work?
