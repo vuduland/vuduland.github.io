@@ -16,15 +16,15 @@ body {
   min-height: 55px;
   padding: 0 15px 5px;
 }
-
+/* font-family: "IBM Plex Mono", monospace; */
 .navbar-default .navbar-nav li a {
   color: #d5d5d5;
-  font-family: 'Rock Salt', cursive;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .navbar-default .navbar-nav li a {
   color: #d5d5d5;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .navbar-default .navbar-nav li a:hover,
@@ -38,7 +38,7 @@ body {
 
 #fuzzy {
   margin: 10px;
-  font-family: 'Bungee Shade', cursive;
+  font-family: "IBM Plex Mono", monospace;
   font-optical-sizing: auto;
   color: rgb(255, 255, 255);
 }
@@ -56,7 +56,7 @@ body {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  font-family: 'Rock Salt', cursive;
+  font-family: "IBM Plex Mono", monospace;
   font-size: 1rem;
   color: rgb(255, 255, 255);
 }
@@ -67,7 +67,7 @@ body {
 }
 
 p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 p #lead {
@@ -79,7 +79,6 @@ p #lead {
   padding: 40px 0;
   background-color: rgb(212, 238, 253);
   opacity: 0.85;
-  overflow-wrap: break-word anywhere;
 }
 
 .padding img {
@@ -90,12 +89,23 @@ p #lead {
   object-fit: cover;
 }
 
+.padding #about img {
+  width: 70%;
+  height: 80%;
+  object-fit: cover;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 25%;
+  padding-top: inherit;
+}
+
 .projects img {
   width: 475px;
   height: 250px;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 7px;
   padding: 0px;
+  margin: 1% 0% 1% 15%;
   object-fit: fill;
 }
 
@@ -113,18 +123,20 @@ p #lead {
   padding: 40px 15px 15px 5px;
   background-color: rgb(212, 238, 253);
   text-align: justify;
-  align-content: center;
-  /* margin: auto; */
+  align-items: center;
+  margin: 0% 0% 1% 0%;
+  object-position: 50%;
 }
 
 .projects h2,
 #about h2 {
-  text-align: center;
-  font-family: 'Rock Salt', cursive;
+  /* text-align: center; */
+  font-family: "IBM Plex Mono", monospace;
   font-size: 2em;
   color: rgb(10, 10, 10);
   margin-bottom: 3em;
   margin-top: 3em;
+  object-position: 50%;
 }
 
 footer {
@@ -137,7 +149,7 @@ footer {
 
 footer h3 {
   color: #fff;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 footer #name {
@@ -180,8 +192,10 @@ footer #name {
   }
 
   .padding #about img {
-    width: 100%;
+    width: 70%;
     object-fit: cover;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 1%;
     padding-top: inherit;
   }
@@ -227,8 +241,10 @@ footer #name {
   }
 
   .padding #about img {
-    width: 100%;
+    width: 70%;
     object-fit: cover;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 1%;
     padding-top: inherit;
   }
@@ -270,8 +286,10 @@ footer #name {
   }
 
   .padding #about img {
-    width: 100%;
+    width: 70%;
     object-fit: cover;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 1%;
     padding-top: inherit;
   }

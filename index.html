@@ -16,11 +16,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Megrim|Permanent+Marker|Rock+Salt&display=swap"
-    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@1&family=IBM+Plex+Mono&display=swap"
+  rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="shortcut icon" type="image/png" href="/assets/ripple_window_and_fractal_32x32.jpg" />
   <link href="/assets/style.css" rel="stylesheet">
 </head>
 
@@ -35,7 +36,7 @@
           <span class="icon-r"></span>
         </button>
         <a href="#" class="navbar-brand">
-          <h2 id="fuzzy">~ VUDU Labs Design ~ </h2>
+          <h2 id="fuzzy">Victor Uland</h2>
         </a>
 
       </div>
@@ -52,9 +53,8 @@
 
   <div id="home">
     <div class="landing-text">
-      <h1> Victor Arden Uland </h1>
-      <h3>make cool things</h3>
-      <!-- <a href="https://jsfiddle.net" class="btn btn-default btn-lg" target="_blank">Get Started</a> -->
+      <h1> Make Cool Things </h1>
+      <!-- <h3>make cool things</h3> -->
     </div>
   </div>
   <div id='me'></div>
@@ -85,45 +85,27 @@
     </div>
   </div>
 
-  <div id="fixed">
+  <span id="fixed"></span>
 
-  </div>
   <div class="padding" id="project">
     <div id="projects" class="projects">
-      <div class="container-fluid">
-        <div class="row">
+      <!-- <div class="container-fluid"> -->
+        <span class="row">
           <h2 class="col-sm-12">Projects</h2>
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-8 col-md-8 col-sm-12">
 
-            <h4><span>KC-Cleanup</span></h4>
-            <p><span>A full stack MERN web application which allows users to pin exact coordinates of areas where
-                illegal dumping has taken place. The user can also upload a picture of the area and anyone who
-                volunteers can clean it up and upload an after picture. Based on the viral #Trash-Tagging
-                movement.</span></p>
-            <div class="col-sm-12">
-              <a href="https://kc-cleanup.herokuapp.com/" target="_blank"><img id='right'
-                  src="/assets/img/KC-Cleanup.png" alt="Portfolio Website Picture"></a>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
               <h4><span>WinePal</span></h4>
-              <p><span> A full MERN stack Web Application to store and track wine collections, with user authentication
-                  and
-                  an intuitive UX. </span></p>
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <a href="https://proj-winepal.herokuapp.com/" target="_blank"><img id='right'
+              <p><span> A full stack web app utilizing Node/Express to store and track wine collections, with user authentication
+                  and an intuitive UX. </span></p>
+
+                <a href="https://proj-winepal.herokuapp.com/" target="_blank"><img 
                     src="/assets/img/WinePal.png" alt="Portfolio Website Picture">
                 </a>
-              </div>
-            </div>
 
           </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
+        </span>
+      <!-- </div> -->
+        <span class="row">
           <div class="col-lg-6 col-md-6 col-sm-12">
             <h4><span>Train Schedule Calculator</span></h4>
             <p><span>A simple UI that allows a user to input a train name, destination, first train time, and the
@@ -132,14 +114,14 @@
                 At this point the destination and train name are arbitrary, but will be updated later to perhaps
                 interface with actual train schedules.
               </span></p>
-            <div class="col-lg-6 col-md-6 col-sm-12">
+
               <a href="https://vuduland.github.io/07-Train_Scheduler/" target="_blank"><img id='right'
                   src="/assets/img/trainScheduler.png" alt="Portfolio Website Picture">
               </a>
-            </div>
+
           </div>
-          <div class="container-fluid">
-            <div class="row">
+        </span>
+            <span class="row">
               <div class="col-lg-6 col-md-6 col-sm-12">
                 <h4><span>LIRI Bot</span></h4>
                 <p><span>This is a LIRI-Bot (Language Interpretation and Recognition Interface). It was made in order to
@@ -147,50 +129,19 @@
                     a
                     user seeks, no more, no less. There is also a log.txt file which the program can write commands to.
                   </span></p>
-                <div class="col-lg-6 col-md-6 col-sm-12">
+
                   <a href="https://github.com/vuduland/LIRI_Bot" target="_blank"><img id='right'
                       src="/assets/img/LIRI-project.gif" alt="Portfolio Website Picture">
                   </a>
-                </div>
+
               </div>
 
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid projects">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
-            <h4><span>CRYSTAL.method Game</span></h4>
-            <p><span>A game where the user clicks on a crystal, each one assigned a random number of hidden point
-                values. The crystals value is added to the total in hopes to reach the target value. Like black jack,
-                if you go over it's bust, and you start again.</span></p>
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <a href="https://vuduland.github.io/04_Crystal_Guess/" target="_blank"><img id='right'
-                  src="/assets/img/crystalMethod.png" alt="Portfolio Website Picture">
-              </a>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12">
-              <h4><span>code.Division</span></h4>
-              <p><span> A site with curated content and resources related to web development and programming. Will be
-                  updated with more functionality and bug fixes soon.
-                </span></p>
-              <div class="col-lg-6 col-md-6 col-sm-12">
-                <a href="http://vuduland.github.io/01-Project/" target="_blank" target="_blank"><img id='right'
-                    src="/assets/img/code-Division.png" alt="Portfolio Website Picture">
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
+            </span>
 
     </div>
   </div>
+
+  
   <footer class="container-fluid text-center">
     <div id="contact" class="row">
       <div id="contactUs" class="col-sm-4">
@@ -207,8 +158,8 @@
         <a href="https://github.com/vuduland" class="fa fa-github" target="_blank"></a>
       </div>
       <div class="col-sm-4">
-        <h3> Victor Arden Uland <br>~ vuedulabs@gmail.com ~ &copy; 2019 </h3>
-        <img src="/assets/img/ceiling.jpg" alt="b-image" class="icon">
+        <h3> Victor Arden Uland </h3>
+
       </div>
     </div>
 
